@@ -1,0 +1,18 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* اللون الأساسي للمشروع لضمان عدم وجود مساحات بيضاء */
+  background-color: #F7FEF4; 
+}
+
+/* تطبيق خط Inter على كل العناصر بشكل إجباري */
+* {
+  font-family: 'Inter', sans-serif !important;
+  box-sizing: border-box; /* نصيحة: ضيفي دي عشان المقاسات تظبط معاكي دايماً */
+}
+
+body {
+  display: block !important; 
+}
